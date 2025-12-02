@@ -1,0 +1,53 @@
+html {
+	width: device-width;
+	height: 100%;
+}
+
+body,html {
+	margin: 0;
+	padding: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+.top{
+   background-color: black;
+   justify-content: end;
+   padding: 5px;
+   display: flex;
+   padding-right: 10px;
+}
+
+.settings{
+    justify-content: end;
+    color: white;
+    text-decoration: none;
+}
+
+.events{
+    background-color: orange;
+    padding: 50px 200px;
+    text-align: center;
+    
+}
+
+.group{
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+}
+
+.link{
+    margin: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    justify-content: center;
+}
